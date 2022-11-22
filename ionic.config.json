@@ -1,0 +1,7 @@
+{
+  "name": "myFm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

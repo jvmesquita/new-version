@@ -1,0 +1,26 @@
+  <img src="/assets/future.jpg" class="imagem-principal" />
+
+  <ion-col>
+    <div class="ion-text-center">
+      <h1>Moeda para cotação</h1>
+    </div>
+  </ion-col>
+
+  <ion-item>
+    <ion-checkbox slot="end" #brl></ion-checkbox>
+    <ion-label>R$ (BRL)</ion-label>
+  </ion-item>
+<br>
+<ion-item>
+  <ion-label>$ (USD)</ion-label>
+  <ion-checkbox slot="end" [disabled]= "true"></ion-checkbox>
+</ion-item>
+<br>
+<ion-item>
+  <ion-label>€ (EUR)</ion-label>
+  <ion-checkbox slot="end" [disabled]= "true"></ion-checkbox>
+</ion-item>
+
+<div class="ion-padding">
+  <ion-button expand="block" type="submit" class="ion-no-margin" (click)="avancar()">Avançar</ion-button>
+</div>
